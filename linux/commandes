@@ -1,0 +1,15 @@
+sudo    
+    super user do : on demande a l'admistrateur de d'effectuer la commande qui suit
+apt
+    aptitude: gestionnaire de paquet pour maj et installations de programmes
+cd
+            update: recherche les maj
+            upgrade: install les maj
+            install: suivi du nom du logiciel pour linstaller
+            remove : nom du logiciel
+ls
+mkdir
+touch
+rm
+cp
+mv
