@@ -2,14 +2,35 @@ sudo
     super user do : on demande a l'admistrateur de d'effectuer la commande qui suit
 apt
     aptitude: gestionnaire de paquet pour maj et installations de programmes
-cd
+
             update: recherche les maj
             upgrade: install les maj
             install: suivi du nom du logiciel pour linstaller
             remove : nom du logiciel
-ls
+
+cd
+   change directory : permet de changer de dossier
+
+ls 
+    list : permet de lister des elements du dossier
+        -l : pour afficher les elements sous forme de liste et avoir plus d'infos
+        -a :  pour affichere elements cache
+        -h : pour afficher les tailles des elements de manieres plus pratique
+
 mkdir
-touch
-rm
-cp
+    make directory : permet de cree des dossier
+
+touch : permet d'actualiser la date d'acces mais l'elements n'existe pas, il cree un fichier
+
+rm: 
+    remove: permet de supprimer des fichier
+        -r: indispensenble pour supprimer des dossier
+
+cp:
+    copy: permet de copier un elements dans un autre emplacement
+
 mv
+    move: permet de deplacer dans autre emplacement
+
+chmod
+    change mode: permet de changer les permission Read, Write, eXecute User, Group, Others
